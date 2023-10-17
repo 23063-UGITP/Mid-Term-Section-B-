@@ -1,0 +1,131 @@
+/* Reset some default styles to make it consistent across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .flex_fornews {
+    display: flex;
+  }
+    
+  /* Set a background color for the whole page */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header section */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  .header h6 {
+    font-size: 16px;
+  }
+  
+  /* Style the container that holds the entire content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the news section */
+  .news {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  /* Main news in the center with larger font size */
+  .article.big {
+    width: 70%;
+    text-align: left;
+    font-size: 30px;
+    padding: 10px
+    }
+
+  /* Style the next two articles side by side */
+  .article.medium {
+    width: 50%;
+    margin-top: 4%;
+    padding: 10px
+  }
+  
+  /* Style the articles list on the right */
+  .article.small {
+    width: 100%;
+    padding: 10px
+    list-style: none;
+  }
+  
+  .article.small li {
+    margin-bottom: 10px;
+  }
+  
+  .article img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .articlecontent h2 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  
+  .articlecontent p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Style the links in the footer */
+  .bottomlinks h4 {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  .bottomlinks ul {
+    list-style: none;
+  }
+  
+  .bottomlinks li {
+    margin: 5px 0;
+  }
+  
+  .bottomlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  /* Style links in the articles */
+  .articlecontent a {
+    color: #0077cc;
+    text-decoration: underline;
+  }
+  
+  /* Style the date in the main news */
+  .article.big h6 {
+    font-size: 18px;
+    color: #777;
+  }
+  
